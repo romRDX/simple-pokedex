@@ -1,0 +1,30 @@
+
+.pokes-list {
+    width: 48%;
+    box-sizing: border-box;
+    height: 88%;
+    border-radius: 15px;
+    box-shadow: inset 0 0 10px gray;
+    max-height: 800px;
+
+    ul {
+        overflow-y: scroll;
+        box-sizing: border-box;
+        height: 86%;
+        width: 99%;
+        padding: 15px 40px;
+
+        li:not(:first-child) {
+            margin-top: 10px;
+        }
+    }
+
+    > div {
+        width: 100%;
+        height: 10%;
+        box-shadow: 0 10px 20px -15px gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

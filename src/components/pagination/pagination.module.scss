@@ -1,0 +1,33 @@
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        border-radius: 50%;
+        border: 2px solid #FB1B1B;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    button {
+        background: #0075BE;
+        padding: 8px 10px;
+        border-radius: 10px;
+        width: 90px;
+        margin: 0 10px;
+        font-weight: bold;
+        color: #FFF;
+    }
+
+    h2 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
