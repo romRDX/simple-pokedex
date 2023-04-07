@@ -20,6 +20,7 @@ module.exports = {
     'semi': ['error', 'always'],
     'indent': ['error', 2],
     'no-multi-spaces': ['error'],
-    'no-unused-vars': 'off'
+    'no-unused-vars': 0,
+    '@typescript-eslint/no-unused-vars': 0
   }
 };
