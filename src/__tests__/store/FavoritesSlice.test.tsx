@@ -26,8 +26,6 @@ describe('Store', () => {
 
     const state = fakeStore.getState().favorites;
 
-    console.log('ASD1: ', state);
-    console.log('ASD2: ', result);
     expect(result.payload).toEqual([fakePokesData[0], fakePokesData[1]]);
     expect(state.favorites).toEqual([fakePokesData[0], fakePokesData[1]]);
   });

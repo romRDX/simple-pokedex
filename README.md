@@ -31,6 +31,8 @@ do custom hook que usei para fazer a requisição não foi testado
 teria que dar uma volta extra para fazer isso dai acabei deixando assim.
 
 Eu deixei alguns comentários nesses arquivos de testes para você conseguir identificar mais ou menos o que eu tentei fazer.
+Os testes do redux-store tiveram um pequeno warning pois eu usei uma função mockada como argumento do dispatch, porém como
+o teste rodou e passou normalmente, não me preocupei muito e deixei assim.
 
 # Fim
 
