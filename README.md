@@ -32,7 +32,8 @@ teria que dar uma volta extra para fazer isso dai acabei deixando assim.
 
 Eu deixei alguns comentários nesses arquivos de testes para você conseguir identificar mais ou menos o que eu tentei fazer.
 Os testes do redux-store tiveram um pequeno warning pois eu usei uma função mockada como argumento do dispatch, porém como
-o teste rodou e passou normalmente, não me preocupei muito e deixei assim.
+o teste rodou e passou normalmente, além disso o typescript reclamou demais da tipagem do fakeStore, eu realmente não achei
+uma tipagem decente para por nele, então acabei deixando "any" mesmo pois isso estava impedindo o build.
 
 # Fim
 

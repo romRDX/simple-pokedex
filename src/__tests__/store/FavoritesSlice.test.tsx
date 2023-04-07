@@ -5,7 +5,7 @@ import { fakePokesData } from '../../__mocked__/mockedData';
 const mockCallbackFunc = () => jest.fn();
 
 describe('Store', () => {
-  let fakeStore;
+  let fakeStore: any;
     
   beforeEach(() => {
     fakeStore = configureStore({
